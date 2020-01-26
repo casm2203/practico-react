@@ -1,6 +1,7 @@
 import React from 'react'
 import '../styles/Footer.scss'
 
+
 const Footer = () => (
     <footer className="footer">
     <a className="link" href="/">Términos de uso</a>
