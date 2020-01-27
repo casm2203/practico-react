@@ -10,7 +10,9 @@ const useInitialState = API => {
     fetch(API)
       .then(response => response.json())
       .then(data => setVideos(data));
+      // eslint-disable-next-line
   }, []);
+  
   return videos;
 };
 
