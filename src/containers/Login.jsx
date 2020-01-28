@@ -22,10 +22,10 @@ const Login = () => (
       </form>
       <section className="login__container--social-media">
         <div>
-          <img src={googleIcon} /> Inicia sesión con Google
+          <img src={googleIcon} alt="googleIcon" /> Inicia sesión con Google
         </div>
         <div>
-          <img src={twitterIcon} />
+          <img src={twitterIcon} alt="twitterIcon"/>
           Inicia sesión con Twitter
         </div>
       </section>

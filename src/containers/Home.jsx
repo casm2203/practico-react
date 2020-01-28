@@ -19,7 +19,7 @@ function Home({myList, trends, originals}) {
             {myList.map(item => (
               <CarouselItem
                 key={item.id}
-                {...item} /* con eso agregas todo lo que contiene itemas*/
+                {...item} /* con eso agregas todo lo que contiene items*/
               />
             ))}
           </Carousel>
@@ -29,7 +29,7 @@ function Home({myList, trends, originals}) {
           {trends.map(item => (
             <CarouselItem
               key={item.id}
-              {...item} /* con eso agregas todo lo que contiene itemas*/
+              {...item} /* con eso agregas todo lo que contiene items*/
             />
           ))}
         </Carousel>
@@ -39,7 +39,7 @@ function Home({myList, trends, originals}) {
           {originals.map(item => (
             <CarouselItem
               key={item.id}
-              {...item} /* con eso agregas todo lo que contiene itemas*/
+              {...item} /* con eso agregas todo lo que contiene items*/
             />
           ))}
         </Carousel>
