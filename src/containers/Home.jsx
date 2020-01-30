@@ -20,6 +20,7 @@ function Home({myList, trends, originals}) {
               <CarouselItem
                 key={item.id}
                 {...item} /* con eso agregas todo lo que contiene items*/
+                myList={true}
               />
             ))}
           </Carousel>
